@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio Page</title>
+    <!--Link to External Stylesheet-->
+    <link rel="stylesheet" href="css/Stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&family=Turret+Road&display=swap" rel="stylesheet">
+    <script>
+        function showAnswer(answer, id){
+        document.getElementById(id).innerHTML = answer;
+        }
+    </script> 
+</head>
+<body>
+    <div id="container">
+        <h1>Riddles</h1>
+        <div id="nav-bar">
+            <a href="index.html" class="btn">Home</a>
+            <a href="riddles.html" class="btn">Riddles</a>
+        </div>
+            <p>You live in a one story house made entirely of redwood. What color would the stairs be?</p>
+            <input type="button" value="Show Answer" onclick="showAnswer('What stairs? You live in a one-story house.', 'answer1')">
+            <span id="answer1"></span>
+            <hr>
+            <p>What has six faces, but does not wear makeup, has twenty-one eyes, but cannot see? What is it?</p>
+            <input type="button" value="Show Answer" onclick="showAnswer('A die (dice).', 'answer2')">
+            <span id="answer2"></span>
+            <hr>
+            <p>What runs around the whole yard without moving?</p>
+            <input type="button" value="Show Answer" onclick="showAnswer('A fence.', 'answer3')">
+            <span id="answer3"></span>
+            <hr>
+            <p>I have a neck and no head, two arms and no hands. What am I?</p>
+            <input type="button" value="Show Answer" onclick="showAnswer('A shirt.', 'answer4')">
+            <span id="answer4"></span>
+            <hr>
+            <p>What belongs to you, but other people use it more than you?</p>
+            <input type="button" value="Show Answer" onclick="showAnswer('Your name.', 'answer5')">
+            <span id="answer5"></span>
+            <hr>
+            <p>I make two people out of one. What am I?</p>
+            <input type="button" value="Show Answer" onclick="showAnswer('A mirror', 'answer6')">
+            <span id="answer6"></span>
+            <hr>
+            <p>I am white when I am dirty, and black when I am clean. What am I?</p>
+            <input type="button" value="Show Answer" onclick="showAnswer('A blackboard.', 'answer7')">
+            <span id="answer7"></span>
+            <hr>
+            <p>How can you leave a room with two legs and return with six legs?</p>
+            <input type="button" value="Show Answer" onclick="showAnswer('Bring a chair back with you.', 'answer8')">
+            <span id="answer8"></span>
+            <hr>
+            <p>What two things can you never eat for breakfast?</p>
+            <input type="button" value="Show Answer" onclick="showAnswer('Lunch and dinner.', 'answer9')">
+            <span id="answer9"></span>
+            <hr>
+            <p>What kind of running means walking?</p>
+            <input type="button" value="Show Answer" onclick="showAnswer('Running out of gas!', 'answer10')">
+            <span id="answer10"></span>
+            <hr>
+            <p class="footer">&copy; 2020 HTML/JavaScript Class</p>
+            <img src="images/RiddlesValidation.PNG" alt="W3C validation Results">
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+html, body{
+    background-color: darkslategray;
+    font-family: 'Sansita Swashed', cursive;
+    font-size: medium;
+    color: thistle;
+    display: flex;
+    justify-content: center;
+    }
+
+#container{
+    width: 970px;
+    padding: 10px;
+}
+
+h1{
+    width: 950px;
+    padding: 10px;
+    text-align: center;
+    background-color: forestgreen;
+    border: gold solid 2px;
+}
+
+.sections{
+    width: 950px;
+    padding: 10px;
+    background-color: darkolivegreen;
+}
+
+img{
+    border: gray solid 5px;
+}
