@@ -1,0 +1,96 @@
+/*CSS goes here*/
+
+html, body{
+    margin: 0;
+    background-image: url(../images/City-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Syne Mono', monospace;
+}
+
+#container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 1000px;
+    padding: 10px;
+    background-color: rgba(99, 99, 99, .7);
+
+}
+
+#header{
+    height: 100px;
+    padding: 10px;
+    background-color: #333333;
+    color: white;
+    line-height: 50px;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#nav{
+    height: 50px;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    height: 50px;
+    background-color: black;
+    color: firebrick;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(80,60,50);
+    color: white;
+    margin-right: 5px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: #aa2323;
+}
+
+.left{
+    width: fit-content;
+    background-color: darkcyan;
+    padding: 10px;
+    margin: 10px 5px 10px 0;
+    border: darkturquoise double 3px;
+}
+.right{
+    width: fit-content;
+    background-color: darkcyan;
+    padding: 10px;
+    margin: 10px 0 10px 5px;
+    border: darkturquoise double 3px;
+}
+
+.riddles{
+    background-color: rgba(175,175,175, .5);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

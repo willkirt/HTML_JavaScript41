@@ -49,6 +49,7 @@ html,body{
 
 .btn:hover{
     background-color: orange;
+    color: #aa2323;
 }
 
 #section{
