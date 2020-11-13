@@ -31,3 +31,8 @@ a:hover{
     background-color: grey;
     color: black;
 }
+
+#navbar{
+    display: flex;
+    justify-content: center;
+}

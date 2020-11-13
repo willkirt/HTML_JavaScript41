@@ -4,9 +4,14 @@ html, body{
 }
 
 #container{
-    background-color: black;
+    background-color: lightseagreen;
 }
 
 canvas{
-    
+    background-color: black;
+}
+
+#nav{
+    display: flex;
+    justify-content: center;
 }
