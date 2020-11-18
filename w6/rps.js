@@ -12,21 +12,21 @@ window.onload = function(){
 
         function win(){
             ctx.fillStyle = 'green';
-            ctx.font = '60px Havetical';
+            ctx.font = '60px Permanent Marker';
             ctx.textAlign = 'center';
             ctx.fillText('You won.', c.width/2, c.height/2);
         }
     
         function lose(){
             ctx.fillStyle = 'red';
-            ctx.font = '60px Havetical';
+            ctx.font = '60px Permanent Marker'
             ctx.textAlign = 'center';
             ctx.fillText('You lost.', c.width/2, c.height/2);
         }
     
         function tie(){;
             ctx.fillStyle = 'lightblue';
-            ctx.font = '60px Havetical';
+            ctx.font = '60px Permanent Marker';
             ctx.textAlign = 'center';
             ctx.fillText('It\'s a tie.', c.width/2, c.height/2);
         }
@@ -37,7 +37,7 @@ window.onload = function(){
             ctx.fillStyle = 'grey';
             ctx.fillRect(0,0,c.width,c.height);
             ctx.fillStyle= 'aquamarine'
-            ctx.font = '45px Arial'
+            ctx.font = '45px Permanent Marker'
             ctx.textAlign = 'center';
             ctx.fillText('You chose '+rps[playersChoice]+'.\n The computer chooses '+rps[cpuChoice]+'.',c.width/2, c.height/4, 950);
     
