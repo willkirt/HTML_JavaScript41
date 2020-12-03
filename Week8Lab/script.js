@@ -1,7 +1,7 @@
 var c = document.querySelector("canvas");
 var ctx = c.getContext('2d');
 var timer = requestAnimationFrame(main);
-var gravity = .1;
+var gravity = 1;
 var asteroids = new Array();
 var numAsteroids = 10;
 var gameOver = false;
@@ -15,7 +15,7 @@ function Asteroids(){
     this.radius = randomRange(5, 10);
     this.x = randomRange(0 + this.radius, c.width - this.radius);
     this.y = 0;
-    this.vy = randomRange(3,.5);
+    this.vy = randomRange(gravity,.5);
     this.color = 'white';
 
     this.draw = function(){

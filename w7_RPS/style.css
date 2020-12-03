@@ -3,6 +3,24 @@ body{
     background-image: url(images/Background_Tiled.jpg);
 }
 
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    width: auto;
+    height: auto;
+    border: 1px solid black;
+    padding: 7px;
+    background-color: turquoise;
+    text-align: center;
+}
+
+canvas{
+    border: 1px solid black;
+}
+
 #banner{
     text-align: center;
     background-color: turquoise;
@@ -19,18 +37,37 @@ h3{
     margin: 5px;
 }
 
+#rules{
+    text-align: center;
+}
 #menu{
     text-align: center;
     margin-top: 25px;
+    margin-bottom: 25px;
+
 }
 
 .btn{
-    background-color: tomato;
     font-size: 30px;
     text-decoration: none;
-
+    stroke-width: 5px;
+    stroke: teal;
 }
 
-.btn:hover{
-    background-color: violet;
+a:link, a:hover{
+    background-color: yellow;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover{
+    background-color: grey;
+    color: black;
+}
+
+#navbar{
+    display: flex;
+    justify-content: center;
 }
