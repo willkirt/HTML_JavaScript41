@@ -1,0 +1,36 @@
+body{
+    font-family: 'East Sea Dokdo', cursive;
+    background-image: url(images/Background_Tiled.jpg);
+}
+
+#banner{
+    text-align: center;
+    background-color: turquoise;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: 60px;
+    margin: 5px;
+}
+
+h3{
+    font-size: 45px;
+    margin: 5px;
+}
+
+#menu{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.btn{
+    background-color: tomato;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+.btn:hover{
+    background-color: violet;
+}
