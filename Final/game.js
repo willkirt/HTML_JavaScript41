@@ -355,25 +355,35 @@ gameStates[2] = function(){
     if(score > highScore){
         highScore = score;
         ctx.save();
+        ctx.lineWidth = 2;
+        ctx.strokeStyle = 'black';
         ctx.font = "30px Share Tech Mono";
         ctx.fillStyle = 'white';
         ctx.textAlign = 'center';
         ctx.fillText('Game Over!',c.width/2, c.height/2 -30);
         ctx.font = '15px Share Tech Mono';
+        ctx.strokeText('Your score was: '+ score.toString(),c.width/2, c.height/2 +20);
         ctx.fillText('Your score was: '+ score.toString(),c.width/2, c.height/2 +20);
+        ctx.strokeText('Thats a new high score, Congrats!',c.width/2, c.height/2 +40);
         ctx.fillText('Thats a new high score, Congrats!',c.width/2, c.height/2 +40);
+        ctx.strokeText('Press enter to play again.',c.width/2, c.height/2 +60);
         ctx.fillText('Press enter to play again.',c.width/2, c.height/2 +60);
         ctx.restore();
     }
     else{
         ctx.save();
+        ctx.lineWidth = 2;
+        ctx.strokeStyle = 'black';
         ctx.font = "30px Share Tech Mono";
         ctx.fillStyle = 'white';
         ctx.textAlign = 'center';
         ctx.fillText('Game Over!',c.width/2, c.height/2 -30);
         ctx.font = '15px Share Tech Mono';
+        ctx.strokeText('Your score was: '+ score.toString(),c.width/2, c.height/2 +20);
         ctx.fillText('Your score was: '+ score.toString(),c.width/2, c.height/2 +20);
+        ctx.strokeText('Your high score was: '+ highScore.toString(),c.width/2, c.height/2 +40);
         ctx.fillText('Your high score was: '+ highScore.toString(),c.width/2, c.height/2 +40);
+        ctx.strokeText('Press enter to play again.',c.width/2, c.height/2 +60);
         ctx.fillText('Press enter to play again.',c.width/2, c.height/2 +60);
         ctx.restore();
     }
